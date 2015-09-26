@@ -30,7 +30,7 @@ dracut-config-generic
 
 chrony
 arm-boot-config
-extlinux-bootloader
+syslinux-extlinux
 initial-setup
 initial-setup-gui
 #lets resize / on first boot
