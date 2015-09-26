@@ -1,6 +1,6 @@
-%include fedora-arm-base.ks
-%include fedora-arm-xbase.ks
-%include fedora-kde-packages.ks
+%include yor-arm-base.ks
+%include yor-arm-xbase.ks
+%include yor-kde-packages.ks
 
 part / --size=5000 --fstype ext4
 

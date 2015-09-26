@@ -16,11 +16,11 @@ firstboot --reconfig
 
 services --enabled=ssh,NetworkManager,avahi-daemon,rsyslog,chronyd --disabled=network
 
-%include fedora-repo.ks
+%include yor-repo.ks
 
 %packages
 @core
-@standard
+@base
 @hardware-support
 @dial-up
 

@@ -1,13 +1,12 @@
-%include fedora-arm-base.ks
+%include yor-arm-base.ks
 
 part swap --size=256 --fstype swap
 part / --size=1200 --fstype ext4
 
 %packages
--@standard
+-@base
 -@dial-up
 -initial-setup-gui
--generic-release*
 %end
 
 %post

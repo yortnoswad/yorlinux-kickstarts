@@ -1,4 +1,4 @@
-%include fedora-arm-base.ks
+%include yor-arm-base.ks
 
 # server defaults to xfs for / so lets do so on arm also
 part / --size=3000 --fstype xfs
@@ -7,12 +7,9 @@ part / --size=3000 --fstype xfs
 -@dial-up
 # install the default groups for the server evironment since installing the environment is not working
 @server-product
-@standard
+@base
 @headless-management
-@container-management
 @domain-client
--initial-setup-gui
--generic-release*
 %end
 
 %post
