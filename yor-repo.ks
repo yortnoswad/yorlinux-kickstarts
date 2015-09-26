@@ -2,8 +2,8 @@
 
 # Exactly one of the following should be uncommented
 
-# For the master branch the following should be uncommented
-%include fedora-repo-rawhide.ks
+# For the testing branch the following should be uncommented
+%include yor-repo-testing.ks
 
-# For non-master branches the following should be uncommented
-# %include fedora-repo-not-rawhide.ks
+# For non-testing branches the following should be uncommented
+# %include yor-repo-not-testing.ks
