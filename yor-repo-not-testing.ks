@@ -1,3 +1,3 @@
-repo --name=fedora --mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
-repo --name=updates --mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
-#repo --name=updates-testing --mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=updates-testing-f$releasever&arch=$basearch
+repo --name=release --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7.1/armv7/os/
+repo --name=fastbugs --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7.1/armv7/updates/fastbugs/
+repo --name=security --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7.1/armv7/updates/security/

@@ -1,1 +1,1 @@
-repo --name=rawhide --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch
+repo --name=testing --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7testing/armv7/os/
