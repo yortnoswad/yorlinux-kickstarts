@@ -1,7 +1,7 @@
 lang en_US.UTF-8
 #keyboard us
 auth --useshadow --passalgo=sha512
-selinux --enforcing
+selinux --disabled
 firewall --enabled --service=mdns,ssh
 
 # configure extlinux bootloader
