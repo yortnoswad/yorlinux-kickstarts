@@ -1,11 +1,12 @@
+repo --name=extras --baseurl=file:///data/yort/repo/7/extras/$basearch/
+
 %packages
 
 # Exclude unwanted groups that yor-install-base.ks pulls in
 
-# GNOME Desktop default
+# XFCE Desktop default
 @directory-client
 @fonts
-@gnome-desktop
 @guest-agents
 @guest-desktop-agents
 @input-methods
@@ -15,10 +16,10 @@
 @network-file-system-client
 @print-client
 @x11
+@xfce-desktop
 
-# GNOME Desktop optional
+# XFCE Desktop optional
 @backup-client
-@gnome-apps
 @internet-applications
 @legacy-x
 @office-suite
