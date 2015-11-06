@@ -1,25 +1,34 @@
 %packages
 
-# Exclude unwanted groups that fedora-live-base.ks pulls in
--@dial-up
--@input-methods
+# Exclude unwanted groups that yor-install-base.ks pulls in
 
-# Make sure to sync any additions / removals done here with
-# workstation-product-environment in comps
-@base-x
-@core
-@firefox
+# GNOME Desktop default
+@directory-client
 @fonts
+@gnome-desktop
+@guest-agents
 @guest-desktop-agents
-@hardware-support
-@libreoffice
+@input-methods
+@internet-browser
+@java-platform
 @multimedia
-@networkmanager-submodules
-@printing
-@workstation-product
+@network-file-system-client
+@print-client
+@x11
+
+# GNOME Desktop optional
+@backup-client
+@gnome-apps
+@internet-applications
+@legacy-x
+@office-suite
+@remote-desktop-clients
+@smart-card
+
+# Others
+
 
 # Exclude unwanted packages from @anaconda-tools group
 -gfs2-utils
--reiserfs-utils
 
 %end
