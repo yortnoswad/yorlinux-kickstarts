@@ -7,8 +7,7 @@
 # Add the repos you wish to use to compose here.  At least one of them needs group data.
 
 # In the master branch the rawhide repo commands should be uncommented.
-repo --name=yorbase --baseurl=file:///data/yort/repo/yor/$basearch/os
-repo --name=binarybase --baseurl=file:///data/yort/repo/scientific/$basearch/os
+repo --name=base --baseurl=file:///data/yort/repo/7testing/$basearch/os
 #repo --name=base --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7/build/$basearch
 
 # Package manifest for the compose.  Uses repo group metadata to translate groups.
@@ -21,10 +20,10 @@ repo --name=binarybase --baseurl=file:///data/yort/repo/scientific/$basearch/os
 # in to satisify dependencies and we don't always want that. So we  use
 # an exclusion list to cut out things we don't want
 -kernel*debug*
+-kernel-tools*
 
 # Things needed for installation
 @anaconda-tools
 grubby
-grub2
 
 %end

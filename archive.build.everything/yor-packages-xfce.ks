@@ -1,3 +1,6 @@
+repo --name=extras --baseurl=file:///data/yort/repo/7testing/extras/$basearch/
+#repo --name=extras --baseurl=http://mirror.yorlinux.org/pub/linux/yor/7/extras/$basearch/s
+
 %packages
 
 # Exclude unwanted groups that yor-install-base.ks pulls in

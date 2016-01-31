@@ -2,9 +2,10 @@
 
 # Exclude unwanted groups that yor-install-base.ks pulls in
 
-# XFCE Desktop default
+# GNOME Desktop default
 @directory-client
 @fonts
+@gnome-desktop
 @guest-agents
 @guest-desktop-agents
 @input-methods
@@ -14,10 +15,10 @@
 @network-file-system-client
 @print-client
 @x11
-@xfce-desktop
 
-# XFCE Desktop optional
+# GNOME Desktop optional
 @backup-client
+@gnome-apps
 @internet-applications
 @legacy-x
 @office-suite
